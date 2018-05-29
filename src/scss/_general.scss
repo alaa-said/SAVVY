@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    font-family: title,sans-serif,Verdana;
+}
+@mixin padding($fnum,$snum){    
+    padding:$fnum $snum ;   
+}
+
+.nav-linkk {
+    display: block;
+    padding: .5rem 1rem;
+    color: black;
+}
+.container-fluid{
+    
+    width: calc(100% - 100px);
+}

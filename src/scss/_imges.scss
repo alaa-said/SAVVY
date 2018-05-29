@@ -1,0 +1,37 @@
+.imges{
+    padding-top: 170px;
+    padding-bottom: 90px;
+    background-color: $bgColor;
+     p{
+        font-family: paragraph,sans-serif,Verdana;
+        color: $colorFont;
+    }
+    img + p{
+        display:none;
+    }
+    i{
+        color:white;
+        font-size: 70px;
+    }
+    img{
+        border:4px solid white;
+    }
+    .base {
+        position:relative;
+    
+        .overlay{
+            position:absolute;
+            width:100%;
+            height:100%;
+            background-color:rgba(86,151,205,.7);
+            display:none !important;
+        }
+    
+    
+    }
+    .base:hover .overlay{
+                display:flex !important;
+                cursor: zoom-in;
+    
+    }
+}

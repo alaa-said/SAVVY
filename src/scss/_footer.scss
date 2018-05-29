@@ -1,0 +1,11 @@
+footer{
+    background-color: $mainColor;
+    @include  padding(50px,0px);
+    color: $footerColor;
+    i{
+        font-size: 22px;
+    }
+    .arrow i{
+        font-size: 16px;
+    }
+}
